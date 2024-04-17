@@ -1,6 +1,6 @@
-{
+{ "fullScreen": "true",
   "background": {
-    "color": "#282c34"
+    "color": "#3E92CC"
   },
   "interactivity": {
     "events": {
@@ -9,7 +9,7 @@
         "mode": "push"
       },
       "onHover": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
@@ -26,12 +26,12 @@
   },
   "particles": {
     "color": {
-      "value": "#ffffff"
+      "value": "#000000"
     },
     "links": {
       "color": "#ffffff",
       "distance": 150,
-      "enable": true,
+      "enable": false,
       "opacity": 0.5,
       "width": 1
     },
@@ -39,13 +39,10 @@
       "enable": true
     },
     "move": {
-      "direction": "none",
+      "direction": "top",
       "enable": true,
-      "outModes": {
-        "default": "bounce"
-      },
       "random": false,
-      "speed": 6,
+      "speed": 2,
       "straight": false
     },
     "number": {

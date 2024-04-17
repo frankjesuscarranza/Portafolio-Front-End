@@ -1,0 +1,87 @@
+.content p,
+h1,
+h2 {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+#role-definition {
+  font-size: 30px;
+  color: rgb(245, 0, 0);
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.aboutWrapper {
+  display: flex;
+  margin: 35px 10px 10px 10px;
+  height: 65%;
+}
+
+.aboutLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutLeft img {
+  max-width: 100%;
+  height: auto;
+}
+.aboutRight {
+  width: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.aboutText {
+  background-color: rgb(2, 38, 70, 0.7);
+  border-radius: 10px;
+  margin: 10px;
+  height: 90%;
+  text-justify: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    height: 85vh;
+  }
+
+  .aboutLeft {
+    display: none;
+  }
+
+  .aboutRight {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+    height: 85vh;
+  }
+  .aboutWrapper {
+    margin: 5px 10px 10px 10px;
+  }
+
+  .aboutWrapper p {
+    font-size: 16px;
+  }
+
+  .aboutText {
+    margin: 8px;
+    height: 80%;
+    text-justify: 10px;
+    padding: 15px;
+  }
+
+  .aboutRight {
+    padding-top: 0px;
+  }
+}
